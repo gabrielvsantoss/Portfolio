@@ -1,0 +1,34 @@
+:root 
+{
+	--secao-bg-color: rgba(29, 29, 29, .22);
+	--secao-box-shadow: 1.95px 1.95px 2.6px rgba(0, 0, 0, .15);
+}
+
+body
+{
+	background-color: #414141;
+}
+
+#app 
+{
+	margin: auto;
+	max-width: 1000px;
+	padding: 12px;
+}
+
+#header 
+{
+	background: var(--secao-bg-color);
+	box-shadow: var(--secao-box-shadow);
+	padding: 5px;
+}
+
+#banner 
+{
+	background: var(--secao-bg-color);
+	box-shadow: var(--secao-box-shadow);
+}
+
+	#banner .banner-text {
+		background: linear-gradient(90deg, rgba(229, 62, 168, .906), rgba(172, 47);
+	}
