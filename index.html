@@ -10,13 +10,13 @@
 
     <!-- O main vai ser a estrutura principal do projeto -->
     <main id="app" class="my-5">
-    
+
         <section id="header" class="rounded-4">
             <!-- Com esse breakpoint colocado a nav bar vai se ajustar de forma responsiva -->
             <nav class="navbar navbar-expand-md navbar-expand-lg" data-bs-theme="dark">
                 <div class="container-fluid">
 
-                    <a class="navbar-brand fw-semibold"  href="#">
+                    <a class="navbar-brand fw-semibold" href="#">
                         Portfólio
                     </a>
 
@@ -61,48 +61,48 @@
                     <div class="textContent mt-0 fs-5">
                         <p class="text-white fs-2 mb-0">Olá, eu sou <strong>Gabriel Velho</strong>!</p>
                         <span class="fs-1 fw-bold banner-text">Estudante e Desenvolvedor</span>
-                   </div>
+                    </div>
 
                     <div class="d-flex aling-items-center gap-3 mt-5">
                         <a class="btn fs-5 btn-primary" href="#contato">Contate-me!</a>
 
                         <div class="d-flex">
                             <a target="_blank" href="https://github.com/gabrielvsantoss">
-                                <img alt="Github logo" src="assets/github.png"/>
+                                <img alt="Github logo" src="assets/github.png" />
                             </a>
 
                             <a target="_blank" href="https://www.linkedin.com/in/gabriel-velho-dos-santos-aba435365/">
-                                <img alt="Linkedin logo" src="assets/linkedin.png"/>
+                                <img alt="Linkedin logo" src="assets/linkedin.png" />
                             </a>
                         </div>
                     </div>
                 </div>
 
                 <div class="bg-foto pt-4 order-0  order-lg-1">
-                    <img class="img-fluid mt-5 w-100 foto" src="assets/gabriel.png" alt="Foto Gabriel Velho dos Santos"/>
+                    <img class="img-fluid mt-5 w-100 foto" src="assets/gabriel.png" alt="Foto Gabriel Velho dos Santos" />
                 </div>
-        </div>
-</section>
+            </div>
+        </section>
 
-        <section id="sobre" class="rounded-4 mt-3 " >
+        <section id="sobre" class="rounded-4 mt-3 ">
 
             <article class="px-3 py-4">
                 <div class="d-flex flex-column text-white fs-5 ps-3 ">
-                    <p class="fs-2">Sobre Mim</p>
+                    <p class="fs-2 fw-bold">Sobre Mim</p>
                     <P>
-                       opaopa <strong></strong>
+                        Olá meu nome é <strong>Gabriel Velho dos Santos</strong>, sou estudante e entusiasta da área de tecnologia. Atualmente, curso Sistemas de Informação na UNIPLAC (Universidade do Planalto Catarinense), onde estou aprofundando meus conhecimentos em desenvolvimento de software, lógica de programação, banco de dados e outras áreas essenciais da computação.
                     </P>
 
                     <P>
-                        bao<strong></strong>
+                        Além da graduação, também participo da <strong>Academia do Programador</strong>, um curso voltado à formação prática de desenvolvedores fullstack, que tem me ajudado a evoluir tecnicamente e a me preparar para o mercado de trabalho na área de tecnologia.
                     </P>
 
                     <P>
-                        bao<strong></strong>
+                        Sou apaixonado por programação, gosto de resolver problemas por meio da tecnologia e estou sempre em busca de novos aprendizados para crescer como profissional e contribuir com projetos de impacto.
                     </P>
                 </div>
 
-               <img src="assets/quote.png" class="quote" alt="quote" />
+                <img src="assets/quote.png" class="quote" alt="quote" />
             </article>
         </section>
 
@@ -112,7 +112,7 @@
 
             <p class="text-white fs-5 mt-3 ps-3">
                 Aqui estão algumas das minhas habilidades e tecnologias que estou aprendendo atualmente:
-           </p>
+            </p>
 
             <div class="d-flex flex-wrap justify-content-center aling-items-center gap-3 mt-4">
                 <div class="d-flex flex-column align-items-center  gap-2">
@@ -149,9 +149,98 @@
                     <img width="75" src="https://skillicons.dev/icons?i=github&theme=light" alt="GitHub" />
                     <span class="text-white">GitHub</span>
                 </div>
-            </div> 
+            </div>
+        </section>
+
+        <section id="portfolio" class="container rounded-4 mt-3 px-3 py4">
+            <spam class="text-white fw-bold fs-1 mt-5 ps-3">Portfolio </spam>
+
+            <p class="text-white fs-5 mt-3 ps-3">
+                Aqui estão algumas das minhas habilidades e tecnologias que estou aprendendo atualmente:
+            </p>
+            <div class="card mt-4 mx-3 mx-md-auto rounded-4" style="max-width: 500px;" data-bs-theme="dark">
+                <img id="imgCard" class="card-img-top rounded-top-4">
+                <div class="card-body d-flex flex-column gap-2">
+                    <span id="stackCard" class="d-flex gap-1"></span>
+                    <h5 id="tituloCard" class="card-title mt-2"></h5>
+                    <p id="descricaoCard" class="card-text"></p>
+                    <div class="">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModal" id="btnVerProjeto">
+                            Ver projeto
+                        </button>
+                        <a id="urlRepositorio" class="btn btn-outline-light">Repositório</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="d-flex flex-wrap justify-content-center gap-2 mt-3">
+                <button id="btnSelecionarPrimeiroCard" class="btn btn-primary" style="width: 240px;">Controle de Medicamentos</button>
+            </div>
+
+        </section>
+
+
+
+        <section id="contato" class="rounded-4 mt-3 p-3 p-lg-4">
+
+            <span class="text-white fw-bold fs-1">Contato</span>
+
+            <div class="d-flex align-items-center mt-3">
+
+                <div class="icone d-flex justify-content-center align-items-center mt-1 mb-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff"
+                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                        </path>
+                    </svg>
+                </div>
+                <span class="text-white ps-2">(49) 9 98405-6925</span>
+
+            </div>
+
+            <div class="d-flex align-items-center">
+
+                <div class="icone d-flex justify-content-center align-items-center mt-1 mb-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff"
+                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail">
+                        <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                    </svg>
+                </div>
+                <span class="text-white ps-2">gabrielvelhosantos&#64gmail.com</span>
+
+            </div>
+
+            <div class="d-flex align-items-center">
+
+                <div class="icone d-flex justify-content-center align-items-center mt-1 mb-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff"
+                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pinned">
+                        <path d="M18 8c0 4.5-6 9-6 9s-6-4.5-6-9a6 6 0 0 1 12 0"></path>
+                        <circle cx="12" cy="8" r="2"></circle>
+                        <path d="M8.835 14H5a1 1 0 0 0-.9.7l-2 6c-.1.1-.1.2-.1.3 0 .6.4 1 1 1h18c.6 0 1-.4 1-1 0-.1 0-.2-.1-.3l-2-6a1 1 0 0 0-.9-.7h-3.835">
+                        </path>
+                    </svg>
+                </div>
+                <span class="text-white ps-2">Lages - SC - Brasil</span>
+
+            </div>
+
+            <div class="d-flex mt-3">
+                <a target="_blank" href="https://github.com/gabrielvsantoss">
+                    <img alt="Github logo" src="assets/github.png" />
+                </a>
+
+                <a target="_blank" href="https://www.linkedin.com/in/gabriel-velho-dos-santos-aba435365/    ">
+                    <img alt="Linkedin logo" src="assets/linkedin.png" />
+                </a>
+            </div>
+
         </section>
     </main>
+    
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+     <script src="./index.js"></script> 
 </body>
 </html>
