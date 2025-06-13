@@ -1,8 +1,8 @@
 const dadosCardControleMedicamentos = {
     titulo: 'Controle de Medicamentos',
     imagem: 'https://i.imgur.com/8u94HEA.png',
-    gif: 'https://i.imgur.com/SDgwx8m.gif',
-    urlRepositorio: 'https://github.com/academiadoprogramador-fullstack/controle-de-medicamentos-2025',
+    gif: '',
+    urlRepositorio: 'https://github.com/gabrielvsantoss/Controle-de-Medicamentos',
     stack: [
         'https://skillicons.dev/icons?i=html&theme=light',
         'https://skillicons.dev/icons?i=css&theme=light',
